@@ -7,7 +7,7 @@ const app = express();
 
 // ใช้ CORS Middleware
 app.use(cors({
-  origin: ['http://localhost:5174', 'http://localhost:5173','https://data-six-lemon.vercel.app','https://stuckdata.vercel.app'],
+  origin: ['http://localhost:5174', 'https://data-production-881c.up.railway.app','https://data-six-lemon.vercel.app','https://stuckdata.vercel.app'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
 }));
